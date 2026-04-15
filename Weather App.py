@@ -1,9 +1,7 @@
 import requests
-import tkinter as tk
-from tkinter import messagebox
 from geopy.geocoders import Nominatim
 import json
-
+import pandas as pd
 # Define the function to fetch weather data
 def fetch_weather():
     url = f"https://api.weather.gov/points/{latitude},{longitude}"
