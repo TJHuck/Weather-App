@@ -22,7 +22,7 @@ while loc_input == True:
         print("Invalid input. Please enter a valid location.")
 
 
-geolocator = Nominatim(user_agent="weather_app")
+geolocator = Nominatim(user_agent="")
 location = geolocator.geocode(user_loc_input)
 latitude = location.latitude
 longitude = location.longitude
