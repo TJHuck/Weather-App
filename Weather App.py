@@ -1,7 +1,6 @@
 import requests
 from geopy.geocoders import Nominatim
 import json
-import pandas as pd
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
